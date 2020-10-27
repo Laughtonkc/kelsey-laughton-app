@@ -1,0 +1,44 @@
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    vertical-align: middle;
+    flex-basis: auto;
+    margin-bottom: 40px;
+}
+
+#profile-heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'DM Serif Text', serif;
+    color: #011638;
+    font-size: 35px;
+}
+
+
+
+ul {
+   list-style-type: none;
+   display: block;
+   margin: 0 auto;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+h4 {
+    padding-top: 15px;
+    font-family:'Assistant', sans-serif;
+    font-weight: 700;
+    color: #011638;
+}
+
+p {
+     padding-top: 15px;
+     font-family:'Assistant', sans-serif;
+     font-weight: 400;
+      color: #233143;
+      
+}

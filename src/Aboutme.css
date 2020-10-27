@@ -1,0 +1,58 @@
+#about-me-card {
+    margin-top: 77%;
+    font-size: 20px;
+    font-family:'Assistant', sans-serif;
+    max-width: 480px;
+    text-align: center;
+    margin-left: 35%;
+}
+
+#header {
+ font-size: 35px;
+    font-family: 'DM Serif Text', serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    color: #011638;
+}
+
+#portfolio {
+background-color: #FF7F5B;
+   color: #FFF;
+    border: none;
+    width: 145px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-right: 15px;
+    font-weight: 600;
+    font-family:'Assistant', sans-serif;
+}
+
+#portfolio:hover {
+    border: 3px solid;
+    border-color: #FFCE4D;
+    color: #FFF;
+    background-color: #FFCE4D;
+}
+
+#resume {
+background-color: #FFF;
+   color: #FF7F5B;
+    border: 3px solid;
+    border-color: #FF7F5B;
+    width: 145px;
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 70px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-family:'Assistant', sans-serif;
+}
+
+#resume:hover {
+    border: 3px solid;
+    border-color: #FFCE4D;
+    color: #FFCE4D;
+    background-color: #FFF;
+}

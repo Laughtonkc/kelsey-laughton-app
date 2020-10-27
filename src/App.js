@@ -1,17 +1,52 @@
 import React from 'react';
 import './App.css';
-import Image from "./Under-Constructions.png";
+import Mainphoto from "./Mainphoto";
+import Aboutme from "./Aboutme";
+import Testimonials from "./Testimonials";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="Kelsey Laughton">
-        <p className="coming">
-        Coming soon...
-        </p>
-        <img src={Image} alt="Construction" className="image"/>
+      <div classname="container">
+        <header className="Kelsey Laughton">
+          <div>
+            <nav
+              className="navbar border-bottom fixed-top expand-lg responsive-nav"
+              id="header-bar"
+            >
+              <a className="navbar-brand" id="logo" href="/">
+                Kelsey Laughton
+              </a>
 
-      </header>
+              <ul className="nav justify-content-end">
+                <li className="nav-item">
+                  <a
+                    className="nav-link active"
+                    id="nav-bar-links-one"
+                    href="/"
+                  >
+                    Portfolio
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" id="nav-bar-links-two" href="/">
+                    Resume
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" id="nav-bar-links-three" href="/">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <Mainphoto />
+          <Aboutme />
+          <Testimonials />
+        </header>
+      </div>
     </div>
   );
 }
