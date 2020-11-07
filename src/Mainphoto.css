@@ -21,7 +21,7 @@
   color: #011638;
 }
 
-.card-button {
+#lets-chat-one {
   background-color: #ff7f5b;
   color: #fff;
   border: none;
@@ -34,7 +34,7 @@
   font-family: "Assistant", sans-serif;
 }
 
-.card-button:hover {
+#lets-chat-one:hover {
    border: 3px solid;
   border-color: #ff7f5b;
   color: #ff7f5b;

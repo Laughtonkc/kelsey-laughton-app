@@ -23,9 +23,17 @@ export default function Calltoaction() {
             </p>
           </div>
           <div className="col-2">
-            <button id="lets-chat" className="card-button">
-              Contact Me
-            </button>
+            <a
+              className="nav-link"
+              id="nav-bar-links-three"
+              href="mailto:hellokelseylaughton@gmail.com?subject=Hello, Kelsey!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button id="lets-chat-two" classname="card-button">
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
       </div>

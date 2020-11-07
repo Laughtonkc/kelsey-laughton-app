@@ -25,9 +25,17 @@ export default function Aboutme () {
             brown fox went To the market so he could Fill out this text box and
             This one needs it even.
           </p>
-          <button id="portfolio" className="card-button">
-            Portfolio
-          </button>
+
+          <a
+            href="https://laughtonkelsey.myportfolio.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button id="portfolio" className="card-button">
+              Portfolio </button>
+            </a>
+          
+
           <button id="resume" className="card-button">
             Resume
           </button>

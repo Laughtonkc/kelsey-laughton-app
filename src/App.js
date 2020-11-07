@@ -24,7 +24,9 @@ function App() {
                   <a
                     className="nav-link active"
                     id="nav-bar-links-one"
-                    href="/"
+                    href="https://laughtonkelsey.myportfolio.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Portfolio
                   </a>
@@ -35,7 +37,13 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" id="nav-bar-links-three" href="/">
+                  <a
+                    className="nav-link"
+                    id="nav-bar-links-three"
+                    href="mailto:hellokelseylaughton@gmail.com?subject=Hello, Kelsey!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Contact
                   </a>
                 </li>
@@ -45,7 +53,7 @@ function App() {
           <Mainphoto />
           <Aboutme />
           <Carousel />
-            <Calltoaction />
+          <Calltoaction />
         </header>
       </div>
     </div>

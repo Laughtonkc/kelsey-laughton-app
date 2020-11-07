@@ -13,21 +13,21 @@
     font-family:'Assistant', sans-serif;
 }
 
-#lets-chat {
+#lets-chat-two {
     background-color: #FF7F5B;
    color: #FFF;
     border: none;
     width: 160px;
     height: 60px;
     border-radius: 12px;
-    margin-left: 374%;
+    margin-left: 670%;
     margin-top: -12%;
     font-weight: 600;
     font-family:'Assistant', sans-serif;
     font-size: 20px;
 }
 
-#lets-chat:hover {
+#lets-chat-two:hover {
   border: 3px solid;
   border-color: #ff7f5b;
   color: #ff7f5b;

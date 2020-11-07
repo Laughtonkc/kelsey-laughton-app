@@ -15,7 +15,11 @@ export default function Portfolio() {
         <div className="container">
           <div className="row">
             <div className="col">
-              <a href="/">
+              <a
+                href="https://laughtonkelsey.myportfolio.com/vida-care-uk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   id="Vida-cover"
                   ClassName="card-img"
@@ -28,7 +32,11 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="col">
-              <a href="/">
+              <a
+                href="https://laughtonkelsey.myportfolio.com/cityfalcon-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   id="Cityfalcon-cover"
                   ClassName="card-img"
@@ -42,7 +50,11 @@ export default function Portfolio() {
             </div>
             <div className="w-100"></div>
             <div className="col">
-              <a href="/">
+              <a
+                href="https://laughtonkelsey.myportfolio.com/perfect-properties-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   id="Perfect-properties-cover"
                   ClassName="card-img"
@@ -55,7 +67,11 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="col">
-              <a href="/">
+              <a
+                href="https://laughtonkelsey.myportfolio.com/adulting-101"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   id="Adulting-101-cover"
                   ClassName="card-img"

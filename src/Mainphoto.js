@@ -24,15 +24,15 @@ export default function Mainphoto() {
             I am a UX designer with a master in behaviour psychology. I also
             specialize in UI design and web development
           </p>
-          <div className="button-header">
+          <div>
             <a
-              href="href=mailto:hellokelseylaughton@gmail.com"
+              href="https://laughtonkelsey.myportfolio.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-            <button className="card-button">
-              Let's Chat
-            </button>
+              <button id="lets-chat-one" className="card-button">
+                Let's Chat
+              </button>
             </a>
           </div>
         </div>
