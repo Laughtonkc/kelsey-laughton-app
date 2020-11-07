@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Mainphoto from "./Mainphoto";
 import Aboutme from "./Aboutme";
-import Testimonials from "./Testimonials";
-
+import Carousel from "./Carousel";
+import Calltoaction from "./Calltoaction";
 
 function App() {
   return (
@@ -44,7 +44,8 @@ function App() {
           </div>
           <Mainphoto />
           <Aboutme />
-          <Testimonials />
+          <Carousel />
+            <Calltoaction />
         </header>
       </div>
     </div>

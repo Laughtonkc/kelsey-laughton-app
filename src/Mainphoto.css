@@ -21,7 +21,7 @@
   color: #011638;
 }
 
-#contact {
+.card-button {
   background-color: #ff7f5b;
   color: #fff;
   border: none;
@@ -34,3 +34,9 @@
   font-family: "Assistant", sans-serif;
 }
 
+.card-button:hover {
+   border: 3px solid;
+  border-color: #ff7f5b;
+  color: #ff7f5b;
+  background-color: #fff;
+}

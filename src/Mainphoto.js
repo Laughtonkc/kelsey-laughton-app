@@ -17,18 +17,28 @@ export default function Mainphoto() {
         />
         <div className="card-img-overlay" id="intro">
           <p className="card-text">Hi, i am </p>
-          <h5 id="my-name" className="card-title">
+          <h5 className="card-title" id="my-name">
             Kelsey Laughton
           </h5>
           <p className="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+            I am a UX designer with a master in behaviour psychology. I also
+            specialize in UI design and web development
           </p>
-          <button id="contact" className="card-button">
-            Lets Chat
-          </button>
+          <div className="button-header">
+            <a
+              href="href=mailto:hellokelseylaughton@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <button className="card-button">
+              Let's Chat
+            </button>
+            </a>
+          </div>
         </div>
-        <Profile />
+        <div>
+          <Profile />
+        </div>
       </div>
     );
 }
