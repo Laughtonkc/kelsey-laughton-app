@@ -2,6 +2,7 @@ import React from "react";
 import Heroimage from "./Heroimage.png";
 import Profile from "./Profile";
 import "./Mainphoto.css"
+import Typewriter from "react-simple-typewriter";
 
 export default function Mainphoto() {
     return (
@@ -20,10 +21,28 @@ export default function Mainphoto() {
           <h5 className="card-title" id="my-name">
             Kelsey Laughton
           </h5>
+          <div className="App">
+      <h1
+        style={{ paddingTop: "0rem", margin: "auto 0", fontWeight: "normal" }}
+      >
+      </h1>
           <p className="card-text">
-            I am a UX designer with a master in behaviour psychology. I also
-            specialize in UI design and web development
-          </p>
+            I am a {" "} 
+              <span id="typewriter" style={{ color: "#011638", fontWeight: "bold" }}>
+          <Typewriter
+            loop
+            cursor
+            cursorStyle='|'
+            typeSpeed={90}
+            deleteSpeed={50}
+            delaySpeed={2000}
+            words={["UX Designer", "UI Designer", "React Developer", "UX Researcher"]}
+          />
+        </span>
+        with a master in behavioral psychology and a passion
+        for making digital products which are rooted in user-centric experience and informed by user research.
+        </p>
+    </div>
           <div>
             <a
               href="https://laughtonkelsey.myportfolio.com"
@@ -39,6 +58,6 @@ export default function Mainphoto() {
         <div>
           <Profile />
         </div>
-      </div>
+        </div>
     );
 }

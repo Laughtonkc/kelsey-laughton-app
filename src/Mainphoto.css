@@ -3,11 +3,11 @@
 }
 
 #intro {
-  margin-top: 110px;
+  margin-top: 105px;
   margin-left: 170px;
   font-size: 20px;
   font-family: "Assistant", sans-serif;
-  max-width: 480px;
+  max-width: 490px;
   font-weight: 400;
   color: #233143;
 }
@@ -15,8 +15,8 @@
 #my-name {
   font-size: 45px;
   font-family: "DM Serif Text", serif;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: 400;
   color: #011638;
 }
@@ -28,7 +28,7 @@
   width: 156px;
   height: 56px;
   border-radius: 12px;
-  margin-top: 80px;
+  margin-top: 68px;
   margin-left: 3px;
   font-weight: 600;
   font-family: "Assistant", sans-serif;
@@ -39,4 +39,10 @@
   border-color: #ff7f5b;
   color: #ff7f5b;
   background-color: #fff;
+}
+
+#typewriter {
+  font-size: 22px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
