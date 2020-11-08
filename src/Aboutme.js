@@ -20,10 +20,12 @@ export default function Aboutme () {
             About me
           </h5>
           <p className="card-text" id="about-me-text">
-            The quick brown fox went To the market so he could Fill out this
-            text box and This one needs it even more so here were are The quick
-            brown fox went To the market so he could Fill out this text box and
-            This one needs it even.
+            Who am I, you wonder?
+            <br />
+            The root of my passion is always human behaviour. 
+            I love to pair my array of skills with my overall 
+            dedication to create products which always have  
+            one thing in mind: The user. 
           </p>
 
           <a
@@ -35,10 +37,14 @@ export default function Aboutme () {
               Portfolio </button>
             </a>
           
-
+          <a
+            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d5351553-832b-4f05-86fc-6e0f3bf6649a"
+            target="_blank"
+            rel="noopener noreferrer">
           <button id="resume" className="card-button">
             Resume
           </button>
+          </a>
         </div>
         <Portfolio />
       </div>

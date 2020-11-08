@@ -8,7 +8,7 @@ import Calltoaction from "./Calltoaction";
 function App() {
   return (
     <div className="App">
-      <div classname="container">
+      <div classname="container-fluid">
         <header className="Kelsey Laughton">
           <div>
             <nav
@@ -32,7 +32,10 @@ function App() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" id="nav-bar-links-two" href="/">
+                  <a className="nav-link" id="nav-bar-links-two" 
+                  href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d5351553-832b-4f05-86fc-6e0f3bf6649a"
+                  target="_blank"
+                  rel="noopener noreferrer">
                     Resume
                   </a>
                 </li>

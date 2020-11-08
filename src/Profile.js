@@ -28,8 +28,7 @@ export default function Profile() {
                     />
                     <h4> UX Design </h4>
                     <p>
-                      The quick brown fox went To the market so he could Fill
-                      out this text box. The quick brown fox went To
+                      My first love and introduction to technology, I use my background in behavioural psychology to connect with all my designs.  
                     </p>
                   </li>
                 </ul>
@@ -50,8 +49,7 @@ export default function Profile() {
                     />
                     <h4> UI Design </h4>
                     <p>
-                      The quick brown fox went To the market so he could Fill
-                      out this text box. The quick brown fox went To
+                      Creating user-friendly wireframes isn’t complete with an overlay of beautiful, thoughtful design that will draw the eye of any user 
                     </p>
                   </li>
                 </ul>
@@ -72,8 +70,7 @@ export default function Profile() {
                     />
                     <h4> React Developer </h4>
                     <p>
-                      The quick brown fox went To the market so he could Fill
-                      out this text box. The quick brown fox went To
+                      Implementing my impactful designs using a variety of web-development languages, such as HTML, CSS, JavaScript & React.js
                     </p>
                   </li>
                 </ul>
@@ -94,8 +91,7 @@ export default function Profile() {
                     />
                     <h4> UX Research </h4>
                     <p>
-                      The quick brown fox went To the market so he could Fill
-                      out this text box. The quick brown fox went To
+                      User research is at the heart of my designs. Using psychology research methods, with statistics and user-data for all projects.  
                     </p>
                   </li>
                 </ul>
