@@ -8,26 +8,30 @@ import Calltoaction from "./Calltoaction";
 function App() {
   return (
     <div className="App">
-      <div classname="container-fluid">
+      <div>
         <header className="Kelsey Laughton">
-          <div>
+        <div classname="container-fluid">
             <nav
-              className="navbar border-bottom fixed-top expand-lg responsive-nav"
+              className="navbar navbar-expand-lg border-bottom fixed-top navbar-light"
               id="header-bar"
             >
               <a className="navbar-brand" id="logo" href="/">
                 Kelsey Laughton
               </a>
-
-              <ul className="nav justify-content-end">
-                <li className="nav-item">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="justify-content-end collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul className="navbar-nav">
+                    <li className="nav-item active">
                   <a
-                    className="nav-link active"
+                    className="nav-link"
                     id="nav-bar-links-one"
                     href="https://laughtonkelsey.myportfolio.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
+                  <span class="sr-only">(current)</span>
                     Portfolio
                   </a>
                 </li>
@@ -51,6 +55,7 @@ function App() {
                   </a>
                 </li>
               </ul>
+                </div>
             </nav>
           </div>
           <Mainphoto />

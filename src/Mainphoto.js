@@ -39,6 +39,7 @@ export default function Mainphoto() {
             words={["UX Designer", "UI Designer", "React Developer", "UX Researcher"]}
           />
         </span>
+              <br /> 
         with a master in behavioral psychology and a passion
         for making digital products which are rooted in user-centric experience and informed by user research.
         </p>
