@@ -21,7 +21,7 @@ export default function Calltoaction() {
           
         />
        
-          <div className="col-10 content-wrapper">
+          <div className="col-12 content-wrapper">
             <div className="text-wrapper">
             <p id="ending-card-text">
               Have any projects in mind? 
