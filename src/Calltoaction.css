@@ -29,7 +29,9 @@
         margin-top: -130px ;
     }
 }
-
+#contact-me-button{
+    text-decoration: none;
+}
 #lets-chat-two {
     background-color: #FF7F5B;
    color: #FFF;
