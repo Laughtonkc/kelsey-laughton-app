@@ -28,6 +28,7 @@ export default function Aboutme () {
             one thing in mind: The user. 
           </p>
           <img
+          id="dots1"
           src={Dots1}
           alt="dots"
           />

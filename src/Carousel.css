@@ -9,6 +9,12 @@
  text-align: center;
 }
 
+@media(max-width: 576px) {
+    #heading {
+        font-size: 25px;
+    }
+}
+
 #carousel{
  min-width: 100%;
 }

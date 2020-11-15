@@ -18,6 +18,13 @@
     margin-top: -45%;
     position: relative;
 }
+@media(max-width: 1200px) {
+    #about-me-card {
+        font-size: 16px;
+        
+    }
+}
+
 
 #about-photo {
     max-width: 104%;
@@ -36,8 +43,23 @@ color: #011638;
     
 }
 
+@media(max-width: 576px) {
+    #header {
+        font-size: 25px;
+         margin-left: -30%;
+        
+    }
+}
+
 #about-me-text {
     font-size: 20px;
+}
+
+@media(max-width: 769px) {
+    #about-me-text {
+        font-size: 16px;
+        margin-left: -30%;
+    }
 }
 
 #portfolio {
@@ -52,6 +74,14 @@ background-color: #FF7F5B;
     font-weight: 600;
     font-family:'Assistant', sans-serif;
    
+}
+
+@media(max-width: 576px) {
+    #portfolio {
+       width: 130px;
+    height: 45px;
+    margin-left: -20%;
+    }
 }
 
 #portfolio:hover {
@@ -75,9 +105,26 @@ background-color: #FFF;
     font-family:'Assistant', sans-serif;
 }
 
+@media(max-width: 576px) {
+    #resume {
+       width: 130px;
+    height: 45px;
+        
+    }
+}
 #resume:hover {
     border: 3px solid;
     border-color: #FFCE4D;
     color: #FFCE4D;
     background-color: #FFF;
+}
+
+#dots1 {
+    max-width: 100%;
+}
+
+@media(max-width: 576px) {
+    #dots1 {
+      margin-left: -20%;
+    }
 }

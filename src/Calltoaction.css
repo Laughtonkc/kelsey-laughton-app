@@ -6,6 +6,12 @@
     position: relative;
 }
 
+@media(max-width: 769px) {
+    #My-call-to-action {
+        margin-top: 40px;
+    }
+}
+
 #ending-card-text {
     margin-top: -230px;
     max-width: 25%;

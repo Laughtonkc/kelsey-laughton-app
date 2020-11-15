@@ -9,6 +9,13 @@
  margin-top: 100px;
 }
 
+@media(max-width: 576px) {
+    #title {
+        font-size: 25px;
+    }
+}
+
+
 #Vida-cover {
     margin-right: -20px;
     margin-bottom: 35px;

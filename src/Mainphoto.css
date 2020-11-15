@@ -42,7 +42,7 @@ flex-wrap: wrap;
 
 @media (max-width: 575.98px){
   #intro {
-  font-size: 15px;
+  font-size: 17px;
   }
 }
 
@@ -89,7 +89,13 @@ flex-wrap: wrap;
   color: #ff7f5b;
   background-color: #fff;
 }
-
+@media (max-width: 575.98px){
+  #lets-chat {
+   font-size: 17px;
+   width: 130px;
+  height: 50px;
+  }
+}
 
 #typewriter {
   font-size: 22px;

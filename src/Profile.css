@@ -18,6 +18,12 @@
     font-size: 35px;
 }
 
+@media(max-width: 576px) {
+    #profile-heading {
+        font-size: 25px;
+    }
+}
+
 #icon {
     min-width: 70px;
 }
@@ -33,9 +39,16 @@
 
 #header-list {
     padding-top: 15px;
+    font-size: 23px;
     font-family:'Assistant', sans-serif;
     font-weight: 700;
     color: #011638;
+}
+
+@media(max-width: 576px) {
+    #header-list {
+        font-size: 20px;
+    }
 }
 
 #body-info {
