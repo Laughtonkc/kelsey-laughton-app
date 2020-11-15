@@ -1,7 +1,7 @@
 #My-call-to-action {
     display: block;
     margin: 0 auto;
-    margin-top: 1%;
+    margin-top: 10%;
     margin-bottom: 3%;
     position: relative;
     max-width: 100%;
@@ -9,7 +9,6 @@
 
 @media(max-width: 769px) {
     #My-call-to-action {
-        margin-top: 40px;
         max-width: 100%;
     }
 }
