@@ -13,7 +13,7 @@ export default function Mainphoto() {
             <div className="col-md-8" id="intro">
       <div className="content-wrapper">
       <div className="text-wrapper">
-          <p>Hi, i am </p>
+          <p>Hi, I am </p>
           <h5 id="my-name">
             Kelsey Laughton
           </h5>
