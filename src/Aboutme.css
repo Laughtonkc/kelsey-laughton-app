@@ -2,6 +2,7 @@
  .container-fluid {
  position: relative;
   text-align: center;
+  vertical-align: middle;
  }
 
  .container-fluid .btn {
@@ -53,6 +54,8 @@ color: #011638;
 
 #about-me-text {
     font-size: 20px;
+    text-align: center;
+    align-items: center;
 }
 
 @media(max-width: 769px) {
@@ -78,9 +81,10 @@ background-color: #FF7F5B;
 
 @media(max-width: 576px) {
     #portfolio {
-       width: 130px;
+       width: 120px;
     height: 45px;
     margin-left: -20%;
+    vertical-align: middle;
     }
 }
 
@@ -107,8 +111,9 @@ background-color: #FFF;
 
 @media(max-width: 576px) {
     #resume {
-       width: 130px;
-    height: 45px;
+       width: 120px;
+       height: 45px;
+       vertical-align: middle;
         
     }
 }

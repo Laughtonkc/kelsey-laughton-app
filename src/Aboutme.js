@@ -33,16 +33,18 @@ export default function Aboutme () {
           alt="dots"
           />
           <br />
-         
-            <button 
-            type="btn" 
-            id="portfolio" 
+         <a 
             href="https://laughtonkelsey.myportfolio.com"
-              target="_blank"
-              rel="noopener noreferrer" >
+            target="_blank"
+            rel="noopener noreferrer" 
+         >
+            <button 
+            type="button" 
+            id="portfolio" 
+             >
               Portfolio 
               </button>
-            
+          </a>
           
           <a
             href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d5351553-832b-4f05-86fc-6e0f3bf6649a"

@@ -10,7 +10,7 @@ export default function Mainphoto() {
       <div>
       <div className="container">
         <div className="row">
-            <div className="col-sm-8" id="intro">
+            <div className="col-md-8" id="intro">
       <div className="content-wrapper">
       <div className="text-wrapper">
           <p>Hi, i am </p>
@@ -62,7 +62,7 @@ export default function Mainphoto() {
             </div>
             </div>
             </div>
-            <div className="col-sm-6 mx-auto">
+            <div className="col-md-6 mx-auto">
                   <img
                     id="hero-photo"
                     className="img-responsive"

@@ -1,3 +1,9 @@
+.container-fluid {
+  display: block;
+  margin: 0 auto;
+
+}
+
 #header-bar {
 background-color: #fff;
 border-bottom-color: #D1D1D1;
