@@ -1,19 +1,43 @@
+ 
+ .container-fluid {
+ position: relative;
+  text-align: center;
+ }
+
+ .container-fluid .btn {
+     position: absolute;
+     
+ }
+
 #about-me-card {
-    margin-top: 77%;
     font-size: 20px;
     font-family:'Assistant', sans-serif;
     max-width: 480px;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 30%;
+    margin-top: -45%;
+    position: relative;
+}
+
+#about-photo {
+    max-width: 104%;
+    display: block;
+    margin: 0 auto;
+    margin-left: -40px;
 }
 
 #header {
  font-size: 35px;
-    font-family: 'DM Serif Text', serif;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-weight: 400;
-    color: #011638;
+font-family: 'DM Serif Text', serif;
+padding-top: 105px;
+padding-bottom: 15px;
+font-weight: 400;
+color: #011638;
+    
+}
+
+#about-me-text {
+    font-size: 20px;
 }
 
 #portfolio {
@@ -27,6 +51,7 @@ background-color: #FF7F5B;
     margin-right: 15px;
     font-weight: 600;
     font-family:'Assistant', sans-serif;
+   
 }
 
 #portfolio:hover {

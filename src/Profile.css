@@ -2,7 +2,7 @@
 .container {
     display: flex;
     text-align: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     vertical-align: middle;
     flex-basis: auto;
@@ -11,16 +11,19 @@
 
 #profile-heading {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 80px;
     font-family: 'DM Serif Text', serif;
     color: #011638;
     font-size: 35px;
 }
 
+#icon {
+    min-width: 70px;
+}
 
 
-ul {
+#list-for-profile {
    list-style-type: none;
    display: block;
    margin: 0 auto;
@@ -28,17 +31,18 @@ ul {
    margin-left: 10px;
 }
 
-h4 {
+#header-list {
     padding-top: 15px;
     font-family:'Assistant', sans-serif;
     font-weight: 700;
     color: #011638;
 }
 
-p {
+#body-info {
      padding-top: 15px;
      font-family:'Assistant', sans-serif;
      font-weight: 400;
       color: #233143;
-      
+      min-width: 90px;
+      font-size: 17px;
 }

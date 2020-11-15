@@ -1,24 +1,20 @@
 import React from "react";
 import Heroimage from "./Heroimage.png";
 import Profile from "./Profile";
-import "./Mainphoto.css"
+import "./Mainphoto.css";
+import Dots from "./Dots.png";
 import Typewriter from "react-simple-typewriter";
 
 export default function Mainphoto() {
     return (
       <div>
-        <img
-          id="hero-photo"
-          ClassName="card-img"
-          src={Heroimage}
-          alt="Hero"
-          className="img-fluid"
-          width="1440"
-          height="680"
-        />
-        <div className="card-img-overlay" id="intro">
-          <p className="card-text">Hi, i am </p>
-          <h5 className="card-title" id="my-name">
+      <div className="container">
+        <div className="row">
+            <div className="col-sm-8" id="intro">
+      <div className="content-wrapper">
+      <div className="text-wrapper">
+          <p>Hi, i am </p>
+          <h5 id="my-name">
             Kelsey Laughton
           </h5>
           <div className="App">
@@ -26,7 +22,7 @@ export default function Mainphoto() {
         style={{ paddingTop: "0rem", margin: "auto 0", fontWeight: "normal" }}
       >
       </h1>
-          <p className="card-text">
+            <p>
             I am a {" "} 
               <span id="typewriter" style={{ color: "#011638", fontWeight: "bold" }}>
           <Typewriter
@@ -43,22 +39,40 @@ export default function Mainphoto() {
         with a master in behavioral psychology and a passion
         for making digital products which are rooted in user-centric experience and informed by user research.
         </p>
-    </div>
-          <div>
-            <a
-              href="https://laughtonkelsey.myportfolio.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button id="lets-chat-one" className="card-button">
+                <img
+                className="pl-3"
+                  src={Dots}
+                  id="dots"
+                  alt="dots"
+                />
+                <br />
+                <a
+                      href="mailto:hellokelseylaughton@gmail.com?subject=Hello, Kelsey!"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                  <button 
+                  type="button" 
+                  className="btn-primary btn-lg"
+                  id="lets-chat" 
+                 >
                 Let's Chat
               </button>
-            </a>
-          </div>
+                    </a>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div className="col-sm-6 mx-auto">
+                  <img
+                    id="hero-photo"
+                    className="img-responsive"
+                    src={Heroimage}
+                    alt="Hero"
+                  />
+                </div>
         </div>
-        <div>
+      </div>
           <Profile />
-        </div>
-        </div>
+     </div>
     );
 }

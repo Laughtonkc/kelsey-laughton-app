@@ -6,21 +6,22 @@
  font-weight: 400;
  color: #011638;
  text-align: center;
+ margin-top: 100px;
 }
 
 #Vida-cover {
-    margin-right: -130px;
+    margin-right: -20px;
     margin-bottom: 35px;
 }
 
 #Cityfalcon-cover {
-    margin-left: -130px;
+    margin-left: -20px;
 }
 
 #Perfect-properties-cover {
-    margin-right: -130px;
+    margin-right: -20px;
 }
 
 #Adulting-101-cover {
-     margin-left: -130px;
+     margin-left: -20px;
 }

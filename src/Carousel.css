@@ -8,3 +8,13 @@
  color: #011638;
  text-align: center;
 }
+
+#carousel{
+ min-width: 100%;
+}
+
+@media(max-width: 769px) {
+    #carousel {
+        min-width: 100%;
+    }
+}

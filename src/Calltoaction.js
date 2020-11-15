@@ -10,6 +10,7 @@ import Dribble from "./Dribble.png";
 export default function Calltoaction() {
   return (
     <div>
+    <div className="container">
       <div className="row">
         <img
           id="My-call-to-action"
@@ -17,12 +18,12 @@ export default function Calltoaction() {
           src={Mycalltoaction}
           alt="call to action"
           className="img-fluid"
-          width="900"
-          height="700"
+          
         />
-        <div className="card-img-overlay">
-          <div className="col-10">
-            <p className="card-text" id="ending-card-text">
+       
+          <div className="col-10 content-wrapper">
+            <div className="text-wrapper">
+            <p id="ending-card-text">
               Have any projects in mind? 
               Then go ahead and press the button to message me! 
             </p>
@@ -38,8 +39,10 @@ export default function Calltoaction() {
               </button>
             </a>
           </div>
-        </div>
+          </div>
+          </div>
       </div>
+      <div className="container-fluid">
   <footer className="row">
 <ul className="col-2">
 <li id="footer-link-1">
@@ -88,6 +91,7 @@ hellokelseylaughton@gmail.com
   target="_blank"
   rel="noopener noreferrer">
    <img 
+   id="social-icon"
    src={Linkedin}
    alt="linkedin"
     />
@@ -99,6 +103,7 @@ hellokelseylaughton@gmail.com
   target="_blank"
   rel="noopener noreferrer">
   <img
+  id="social-icon"
   src={Gmail}
   alt="linkedin"
   />
@@ -110,6 +115,7 @@ hellokelseylaughton@gmail.com
   target="_blank"
   rel="noopener noreferrer">
   <img
+  id="social-icon"
   src={Behance}
   alt="linkedin"
   />
@@ -121,6 +127,7 @@ hellokelseylaughton@gmail.com
   target="_blank"
   rel="noopener noreferrer">
 <img
+ id="social-icon"
  src={Dribble}
 alt="linkedin"
 />
@@ -137,6 +144,7 @@ rel="noopener noreferrer">
 Me!
 </a>
 </p> 
+</div>
 </div>
   );
 }

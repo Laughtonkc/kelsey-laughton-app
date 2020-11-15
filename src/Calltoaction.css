@@ -1,16 +1,24 @@
 #My-call-to-action {
     display: block;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 3%;
+    position: relative;
 }
 
 #ending-card-text {
-    margin-top: 274.5%;
+    margin-top: -230px;
     max-width: 25%;
     margin-left: 30%;
     font-size: 23px;
     font-family:'Assistant', sans-serif;
+     position: relative;
+}
+@media(max-width: 769px) {
+    #ending-card-text {
+        font-size: 13px;
+        margin-top: -130px ;
+    }
 }
 
 #lets-chat-two {
@@ -20,11 +28,12 @@
     width: 160px;
     height: 60px;
     border-radius: 12px;
-    margin-left: 375%;
-    margin-top: -12%;
+    margin-left: 545px;
+    margin-top: -25px;
     font-weight: 600;
     font-family:'Assistant', sans-serif;
     font-size: 20px;
+    position: relative;
 }
 
 #lets-chat-two:hover {
@@ -33,6 +42,16 @@
   color: #ff7f5b;
   background-color: #fff;
     font-family:'Assistant', sans-serif;
+}
+
+@media(max-width: 1200px) {
+    #lets-chat-two {
+        font-size: 15px;
+        width: 160px;
+        height: 60px;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
 }
 
 #coder {
@@ -59,6 +78,10 @@ footer {
     background-color: #233143;
 }
 
+ul {
+list-style-type: none;
+}
+
 #footer-link-1 {
     color: #FFF;
     font-family: "Assistant", sans-serif;
@@ -66,7 +89,12 @@ footer {
     padding-top: 20%;
     padding-bottom: 20%;
     padding-left: 20%;
-    
+}
+
+@media(max-width: 769px) {
+    #footer-link-1 {
+        font-size: 15px;
+    }
 }
 
 #port-link {
@@ -81,6 +109,12 @@ font-size: 20px;
  padding-left: 20%;
 }
 
+@media(max-width: 769px) {
+    #footer-link-2 {
+        font-size: 15px;
+    }
+}
+
 #footer-link-3 {
     color: #FFF;
     font-family: "Assistant", sans-serif;
@@ -90,11 +124,23 @@ font-size: 20px;
      padding-left: 20%;
 }
 
+@media(max-width: 769px) {
+    #footer-link-3 {
+        font-size: 15px;
+    }
+}
+
 #footer-contact {
      color: #FFF;
     font-family: "Assistant", sans-serif;
     font-size: 20px;
     padding-top: 6%;
+}
+
+@media(max-width: 769px) {
+    #footer-contact {
+        font-size: 15px;
+    }
 }
 
 #footer-email {
@@ -104,27 +150,48 @@ font-size: 20px;
     text-decoration: none; 
 }
 
+@media(max-width: 769px) {
+    #footer-email {
+        font-size: 15px;
+    }
+}
+
 #footer-email:hover {
     text-decoration: underline;
 }
 
-
-#footer-linkedin {
-    padding-top: 7%;
-    padding-left: 12%;
+#social-icon {
+    width: 53px;
+    height: 46px;
 }
 
+@media(max-width: 1200px) {
+    #social-icon {
+        width: 26px;
+        height: 20px;
+        
+    }
+}
+
+#footer-linkedin {
+    padding-top: 5%;
+    padding-left: 17%;
+}
+
+
 #footer-gmail {
-    padding-top: 7%;
+    padding-top: 5%;
     padding-left: 9%;
 }
 
 #footer-behance {
-    padding-top: 7%;
+    padding-top: 5%;
     padding-left: 9%;
 }
 
 #footer-dribble {
-    padding-top: 7%;
+    padding-top: 5%;
     padding-left: 9%; 
 }
+
+

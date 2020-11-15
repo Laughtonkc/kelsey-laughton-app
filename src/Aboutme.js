@@ -2,24 +2,24 @@ import React from "react";
 import Aboutimage from "./Aboutimage.png";
 import "./Aboutme.css";
 import Portfolio from "./Portfolio";
+import Dots1 from "./Dots1.png";
 
 export default function Aboutme () {
     return (
-      <div>
+      <div className="container-fluid">
         <img
           id="about-photo"
-          ClassName="card-img"
+          ClassName="mx-auto"
           src={Aboutimage}
           alt="About me"
           className="img-fluid"
-          width="1440"
-          height="680"
+         
         />
-        <div className="card-img-overlay" id="about-me-card">
-          <h5 id="header" className="card-title">
+        <div id="about-me-card" className="content-wrapper">
+        <h5 id="header" className="text-wrapper">
             About me
           </h5>
-          <p className="card-text" id="about-me-text">
+          <p id="about-me-text" className="text-wrapper">
             Who am I, you wonder?
             <br />
             The root of my passion is always human behaviour. 
@@ -27,21 +27,27 @@ export default function Aboutme () {
             dedication to create products which always have  
             one thing in mind: The user. 
           </p>
-
-          <a
+          <img
+          src={Dots1}
+          alt="dots"
+          />
+          <br />
+         
+            <button 
+            type="btn" 
+            id="portfolio" 
             href="https://laughtonkelsey.myportfolio.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button id="portfolio" className="card-button">
-              Portfolio </button>
-            </a>
+              target="_blank"
+              rel="noopener noreferrer" >
+              Portfolio 
+              </button>
+            
           
           <a
             href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d5351553-832b-4f05-86fc-6e0f3bf6649a"
             target="_blank"
             rel="noopener noreferrer">
-          <button id="resume" className="card-button">
+          <button id="resume">
             Resume
           </button>
           </a>

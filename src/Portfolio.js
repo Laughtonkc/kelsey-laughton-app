@@ -13,8 +13,8 @@ export default function Portfolio() {
         <h1 id="title">My Latest Work</h1>
 
         <div className="container">
-          <div className="row">
-            <div className="col">
+          <div className="row row-cols-2 row-cols-md-2">
+            <div className="col mb-4">
               <a
                 href="https://laughtonkelsey.myportfolio.com/vida-care-uk"
                 target="_blank"
@@ -31,7 +31,7 @@ export default function Portfolio() {
                 />
               </a>
             </div>
-            <div className="col">
+            <div className="col mb-4">
               <a
                 href="https://laughtonkelsey.myportfolio.com/cityfalcon-1"
                 target="_blank"
@@ -48,8 +48,9 @@ export default function Portfolio() {
                 />
               </a>
             </div>
-            <div className="w-100"></div>
-            <div className="col">
+            
+            <div className="w-100">
+            <div className="col mb-4">
               <a
                 href="https://laughtonkelsey.myportfolio.com/perfect-properties-1"
                 target="_blank"
@@ -66,7 +67,8 @@ export default function Portfolio() {
                 />
               </a>
             </div>
-            <div className="col">
+            </div>
+            <div className="col mb-4">
               <a
                 href="https://laughtonkelsey.myportfolio.com/adulting-101"
                 target="_blank"
@@ -82,6 +84,7 @@ export default function Portfolio() {
                   height="370"
                 />
               </a>
+              
             </div>
           </div>
         </div>

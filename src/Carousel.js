@@ -8,7 +8,7 @@ import Maxtestimony from "./Maxtestimony.png";
 
 export default function Carousel() {
 return (
-  <div>
+  <div className="container-fluid">
     <h1 id="heading">What My Colleges & Clients Say</h1>
     <div
       id="carouselExampleControls"
@@ -18,6 +18,7 @@ return (
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
+            id="carousel"
             className="d-block w-100"
             src={Alpatestimony}
             alt="First slide"
@@ -25,6 +26,7 @@ return (
         </div>
         <div className="carousel-item">
           <img
+            id="carousel"
             className="d-block w-100"
             src={Camtestimony}
             alt="Second slide"
@@ -32,6 +34,7 @@ return (
         </div>
         <div className="carousel-item">
           <img
+            id="carousel"
             className="d-block w-100"
             src={Melissatestimony}
             alt="Third slide"
