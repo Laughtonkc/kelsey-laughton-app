@@ -1,7 +1,7 @@
 import React from "react";
 import Aboutimage from "./Aboutimage.png";
 import "./Aboutme.css";
-import Portfolio from "./Portfolio";
+
 import Dots1 from "./Dots1.png";
 
 export default function Aboutme () {
@@ -22,7 +22,7 @@ export default function Aboutme () {
           <p id="about-me-text" className="text-wrapper">
             Who am I, you wonder?
             <br />
-            The root of my passion is always human behaviour. 
+            The root of my passion is always human behavior. 
             I love to pair my array of skills with my overall 
             dedication to create products which always have  
             one thing in mind: The user. 
@@ -47,7 +47,7 @@ export default function Aboutme () {
           </a>
           
           <a
-            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d5351553-832b-4f05-86fc-6e0f3bf6649a"
+            href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:a1b1052f-d077-4aae-b207-8644b0b2e3bc"
             target="_blank"
             rel="noopener noreferrer">
           <button id="resume">
@@ -55,7 +55,7 @@ export default function Aboutme () {
           </button>
           </a>
         </div>
-        <Portfolio />
+        
       </div>
     );
 }

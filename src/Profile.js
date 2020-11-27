@@ -10,8 +10,9 @@ import "./Profile.css";
 
 export default function Profile() {
     return (
-      <div className="container">
+      <div>
         <h1 id="profile-heading">What I Do</h1>
+      <div className="container">
           <div className="row row-experience">
             <div className="col-sm-3">
               <div id="ux-design">
@@ -99,5 +100,6 @@ export default function Profile() {
             </div>
           </div>
         </div>
+      </div>
     );
 }

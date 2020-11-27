@@ -1,6 +1,6 @@
 import React from "react";
 import Heroimage from "./Heroimage.png";
-import Profile from "./Profile";
+
 import "./Mainphoto.css";
 import Dots from "./Dots.png";
 import Typewriter from "react-simple-typewriter";
@@ -36,7 +36,7 @@ export default function Mainphoto() {
           />
         </span>
               <br /> 
-        with a master in behavioral psychology and a passion
+        with a masters degree in behavioral psychology and a passion
         for making digital products which are rooted in user-centric experience and informed by user research.
         </p>
                 <img
@@ -72,7 +72,7 @@ export default function Mainphoto() {
                 </div>
         </div>
       </div>
-          <Profile />
+        
      </div>
     );
 }

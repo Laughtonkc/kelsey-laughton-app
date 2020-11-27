@@ -9,7 +9,7 @@ import Maxtestimony from "./Maxtestimony.png";
 export default function Carousel() {
 return (
   <div className="container-fluid">
-    <h1 id="heading">What My Colleges & Clients Say</h1>
+    <h1 id="heading">What My Colleagues & Clients Say</h1>
     <div
       id="carouselExampleControls"
       className="carousel slide"

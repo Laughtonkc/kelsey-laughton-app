@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Mainphoto from "./Mainphoto";
+import Profile from "./Profile";
 import Aboutme from "./Aboutme";
+import Portfolio from "./Portfolio";
 import Carousel from "./Carousel";
 import Calltoaction from "./Calltoaction";
 
@@ -37,7 +39,7 @@ function App() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" id="nav-bar-links-two" 
-                  href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:d5351553-832b-4f05-86fc-6e0f3bf6649a"
+                      href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:a1b1052f-d077-4aae-b207-8644b0b2e3bc"
                   target="_blank"
                   rel="noopener noreferrer">
                     Resume
@@ -59,7 +61,9 @@ function App() {
             </nav>
           </div>
           <Mainphoto />
+          <Profile />
           <Aboutme />
+          <Portfolio />
           <Carousel />
           <Calltoaction />
         </header>
