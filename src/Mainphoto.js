@@ -1,6 +1,5 @@
 import React from "react";
 import Heroimage from "./Heroimage.png";
-
 import "./Mainphoto.css";
 import Dots from "./Dots.png";
 import Typewriter from "react-simple-typewriter";
@@ -10,7 +9,7 @@ export default function Mainphoto() {
       <div>
       <div className="container">
         <div className="row">
-            <div className="col-md-8" id="intro">
+            <div className="col-sm-6" id="intro">
       <div className="content-wrapper">
       <div className="text-wrapper">
           <p>Hi, I am </p>
@@ -62,7 +61,7 @@ export default function Mainphoto() {
             </div>
             </div>
             </div>
-            <div className="col-md-6 mx-auto">
+            <div className="col-lg-6 mx-auto">
                   <img
                     id="hero-photo"
                     className="img-responsive"

@@ -10,20 +10,23 @@ position: relative;
 .row {
 display: flex;
     }
+.content-wrapper {
+
+}
 
 #hero-photo {
-  position: relative;
-  max-width: 120%; 
+  
+  display: block;
+    margin: 0 auto ;
   width: 110%;
   height: 100%;
   margin-top: 40px;
-  margin-left: 15%;
   vertical-align: middle;
 }
 
-@media (max-width: 576px){
+@media (max-width: 1024px){
   #hero-photo {
-    max-width: 80%;
+    max-width: 100%;
     display: block;
     margin: 0 auto ;
   }
@@ -64,7 +67,6 @@ display: flex;
 
 #dots {
   padding-top: 35px;
-
 
 }
 
