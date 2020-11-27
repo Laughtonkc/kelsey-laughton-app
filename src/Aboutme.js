@@ -1,5 +1,4 @@
 import React from "react";
-import Aboutimage from "./Aboutimage.png";
 import "./Aboutme.css";
 
 import Dots1 from "./Dots1.png";
@@ -7,19 +6,10 @@ import Dots1 from "./Dots1.png";
 export default function Aboutme () {
     return (
       <div className="container-fluid">
-        <img
-          id="about-photo"
-          ClassName="mx-auto"
-          src={Aboutimage}
-          alt="About me"
-          className="img-fluid"
-         
-        />
-        <div id="about-me-card" className="content-wrapper">
-        <h5 id="header" className="text-wrapper">
+        <h5 id="header" >
             About me
           </h5>
-          <p id="about-me-text" className="text-wrapper">
+          <p id="about-text">
             Who am I, you wonder?
             <br />
             The root of my passion is always human behavior. 
@@ -40,7 +30,7 @@ export default function Aboutme () {
          >
             <button 
             type="button" 
-            id="portfolio" 
+            id="portfolio-bnt" 
              >
               Portfolio 
               </button>
@@ -50,12 +40,10 @@ export default function Aboutme () {
             href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:a1b1052f-d077-4aae-b207-8644b0b2e3bc"
             target="_blank"
             rel="noopener noreferrer">
-          <button id="resume">
+          <button id="resume-bnt">
             Resume
           </button>
           </a>
-        </div>
-        
       </div>
     );
 }

@@ -10,9 +10,9 @@ import Calltoaction from "./Calltoaction";
 function App() {
   return (
     <div className="App">
-      <div>
+      <div classname="container-fluid">
         <header className="Kelsey Laughton">
-        <div classname="container-fluid">
+        <div >
             <nav
               className="navbar navbar-expand-lg border-bottom fixed-top navbar-light"
               id="header-bar"
