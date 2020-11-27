@@ -3,9 +3,7 @@
   margin: auto;
   align-items: center;
   vertical-align: middle;
-  max-width: 1440px;
   
-
 }
 
 #header-bar {
@@ -60,4 +58,10 @@ font-weight: 600;
 #nav-bar-links-three:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.site-wrapper {
+  display: block;
+  margin: auto;
+  max-width: 1440px;
 }

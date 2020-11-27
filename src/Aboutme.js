@@ -1,6 +1,5 @@
 import React from "react";
 import "./Aboutme.css";
-
 import Dots1 from "./Dots1.png";
 
 export default function Aboutme () {

@@ -1,6 +1,7 @@
 
 .container {
-    display: flex;
+    display: block;
+     margin: auto;
     text-align: center;
     flex-wrap: wrap;
     align-items: center;

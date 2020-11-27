@@ -6,6 +6,7 @@ import Aboutme from "./Aboutme";
 import Portfolio from "./Portfolio";
 import Carousel from "./Carousel";
 import Calltoaction from "./Calltoaction";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -60,12 +61,15 @@ function App() {
                 </div>
             </nav>
           </div>
+          <div className="site-wrapper">
           <Mainphoto />
           <Profile />
           <Aboutme />
           <Portfolio />
           <Carousel />
           <Calltoaction />
+          </div>
+          <Footer />
         </header>
       </div>
     </div>
