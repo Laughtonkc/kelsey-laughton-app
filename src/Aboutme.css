@@ -34,8 +34,8 @@ color: #011638;
 }
 
 @media(max-width: 1200px) {
-    #about-me-text {
-        font-size: 16px;
+    #about-text {
+        font-size: 19px;
         
     }
 }
