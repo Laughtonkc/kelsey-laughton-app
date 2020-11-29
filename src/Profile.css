@@ -37,7 +37,14 @@
    margin-right: 10px;
    margin-left: 10px;
 }
-
+@media(max-width: 576px) {
+    #list-for-profile {
+     display: block;
+     margin: 0 auto;
+     margin-right: 0px;
+     margin-left: 0px;
+    }
+}
 #header-list {
     padding-top: 15px;
     font-size: 23px;
@@ -64,5 +71,7 @@
   #body-info {
        font-size: 17px;
        min-width: 70px;
+       display: block;
+       margin: auto;
   }
 }
