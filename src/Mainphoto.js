@@ -21,7 +21,8 @@ export default function Mainphoto() {
                       margin: "auto 0",
                       fontWeight: "normal",
                     }}
-                  ></h1>
+                  >
+                  </h1>
                   <p>
                     I am a{" "}
                     <span

@@ -81,9 +81,11 @@ justify-content: space-evenly;
 #my-name {
   font-size: 35px;
 }
+
 #intro {
   font-size: 17px;
 }
+
 .hero-text {
   align-items: center;
 }
