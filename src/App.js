@@ -5,7 +5,6 @@ import Profile from "./Profile";
 import Aboutme from "./Aboutme";
 import Portfolio from "./Portfolio";
 import Carousel from "./Carousel";
-import Calltoaction from "./Calltoaction";
 import Footer from "./Footer";
 
 function App() {
@@ -67,7 +66,6 @@ function App() {
           <Aboutme />
           <Portfolio />
           <Carousel />
-          <Calltoaction />
           </div>
           <Footer />
         </header>
